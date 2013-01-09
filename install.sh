@@ -44,3 +44,6 @@ if [ $? -ne 0 ]
    echo "Contact System administrator "
    exit 0
 fi
+#remove the install.sh file
+
+rm install.sh
